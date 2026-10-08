@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Racing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo"> The Beatles</div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="JohnLennon.html">John Lennon</a>
+            <a href="Paul.McCartney.html">Paul McCartney</a>
+            <a href="George.Harrison.html">George Harrison</a>
+            <a href="Ringo.Starr.html">Ringo Starr</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+    <section class="banner inicio">
+
+    <div class="texto">
+        <h1>The Beatles</h1>
+        <p>
+            Los 4 de Liverpool
+        </p>
+    </div>
+
+    </section>
+
+        <section class="contenido">
+
+            <h2>Integrantes</h2>
+
+            <div class="cajitas">
+
+        <div class="caja">
+             <img src="img/JL.jfif" alt="John Lennon">
+
+            <h3>John Lennon</h3>
+
+            <p>
+             Líder y guitarrista ritmico de los beatles.
+            </p>
+         </div>
+
+         <div class="caja">
+        <img src="img/PM.jfif" alt="Paul McCartney">
+
+         <h3>Paul McCarteney</h3>
+
+        <p>
+            Bajista y colider de los beatles.
+        </p>
+        </div>
+
+        <div class="caja">
+        <img src="img/GH.jfif" alt="George Harrison">
+
+        <h3>George Harrison</h3>
+
+         <p>
+         Guitarrista principal de los beatles.
+         </p>
+        </div>
+        <div class="caja">
+             <img src="img/RS.jfif" alt="Ringo Starr">
+
+            <h3>Ringo Starr</h3>
+
+            <p>
+             Baterista de los beatles.
+            </p>
+         </div>
+            </div>
+
+        </section>
+
+    <section class="formulario">
+
+    <h2>Encuesta de The Beatles</h2>
+    <p>Completa esta encuestra sobre los 4 de Liverpool</p>
+
+    <form action="#" method="POST">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribi tu nombre" required>
+            </div>
+
+            <div>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email" placeholder="Ej: nombre@gmail.com" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>The Beatles</legend>
+
+            <div>
+                <label for="piloto">¿Cual es tu Beatles favorito?</label>
+
+                <select id="piloto" name="piloto">
+                    <option value="">Selecciona un Beatle...</option>
+                    <option value="verstappen">John Lennon</option>
+                    <option value="hamilton">Paul McCartney</option>
+                    <option value="leclerc">George Harrison</option>
+                    <option value="norris">Ringo Starr</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="equipo">¿Cual es tu disco favorito?</label>
+
+                <select id="equipo" name="equipo">
+                    <option value="">Selecciona un disco...</option>
+                    <option value="ferrari">Please Please me</option>
+                    <option value="mclaren">With The Beatles</option>
+                    <option value="mercedes">A hard days night</option>
+                    <option value="redbull">Beatles For Sale</option>
+                    <option value="otro">Help</option>
+                    <option value="otro">Rubber Soul</option>
+                    <option value="otro">Revolver</option>
+                    <option value="otro">Sgt. Pepper's Lonely Hearts Club Band</option>
+                    <option value="otro">Magical Mistery Tour</option>
+                    <option value="otro">White Album</option>
+                    <option value="otro">Abbey Road</option>
+                    <option value="otro">Let it Be</option>
+                </select>
+            </div>
+
+            <div>
+                <label>¿Seguis la carrera solista de los 4?</label>
+
+                <div>
+                    <label>
+                        <input type="radio" name="gusta" value="si">
+                        Si
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gusta" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label>¿Cual es el que mas te gusta?</label>
+
+                <div>
+                    <label>
+                        <input type="checkbox" name="intereses" value="John Lennon">
+                        Lennon
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="Paul McCartney">
+                        McCartney
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="George Harrison">
+                        Harrison
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="Ringo Starr">
+                        Starr
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label for="comentarios">Comentarios</label>
+
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribi tu opinion..."></textarea>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <button type="submit">Enviar encuesta</button>
+            <button type="reset">Limpiar formulario</button>
+        </div>
+
+    </form>
+
+    </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+    <div class="cajitas-footer">
+
+        <div class="caja-footer">
+                <h3>Contacto</h3>
+                <p>losbichosfanaccount@gmail.com</p>
+            </div>
+
+            <div class="caja-footer">
+                <h3>Redes Sociales</h3>
+                <p>losbichosfanaccount</p>
+            </div>
+
+            <div class="caja-footer">
+                <h3>Enlaces</h3>
+                <p>https://www.thebeatles.com</p>
+            </div>
+
+            <div class="caja-footer">
+                <h3>The Beatles</h3>
+                <p>Todo Beatle</p>
+            </div>
+
+    </div>
+
+    <p>Página realizada con fines educativos.</p>
+
+</footer>
+
+
+
+
+</body>
+</html>
